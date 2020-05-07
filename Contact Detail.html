@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Contact Detail</title>
+</head>
+
+<body>
+  <h1>Contact Details</h1>
+  <ul>
+    <li>
+      <ol>
+        <em><strong>Contact Numbers - </strong></em>
+        <li>Whatsapp Number - 9790277002</li>
+        <li>Landline Number - +0141-4040729</li>
+      </ol>
+    </li>
+    <li><em><strong>Instagram ID - </strong></em><a href="https://www.instagram.com/?hl=en">tshukla_2001</a></li>
+    <li><em><strong>Facebook Name - </strong></em><a href="https://www.facebook.com/">Tanay Shukla</a></li>
+  </ul>
+  <hr>
+  <h4> To Contact Please Fill the Form: </h4>
+  <table>
+    <tbody>
+      <form action="mailto:tshukla2001@gmail.com" method="post" enctype="text/plain">
+        <!-- Creates a form on the webpage. -->
+        <tr>
+          <td><label> Name: </label></td> <!-- Label tag is used give the content in the form. -->
+          <td><input type="text" name="ClientName"></td>
+        </tr>
+        <tr>
+          <td><label> Create a Password: </label></td> <!-- Input tag provides with the elements of the form. It has different attributes. -->
+          <td><input type="password" name="ClientPWD"></td>
+        </tr>
+        <tr>
+          <td><label> Confirm your Password: </label></td>
+          <td><input type="password"></td>
+        </tr>
+        <tr>
+          <td><label> Date of Birth: </label></td>
+          <td><input type="date" name="ClientDOB"></td>
+        </tr>
+        <tr>
+          <td><label> Gender: </label></td>
+          <td>
+            <input type="radio" name="ClientGender"><label> Male </label>
+            <input type="radio" name="ClientGender"><label> Female </label>
+            <input type="radio" name="ClientGender"><label> Other </label>
+          </td>
+        </tr>
+        <tr>
+          <td><label> Email: </label></td>
+          <td><input type="email" name="ClientMail"></td>
+        </tr>
+        <tr>
+          <td><label> Font Color: </label></td>
+          <td><input type="color" name="ClientColor"></td>
+        </tr>
+        <tr>
+          <td><label> Please provide with an Image: </label></td>
+          <td><input type="file" name="ClientImage"></td>
+        </tr>
+        <tr>
+          <td> Your Message: </td>
+          <td> <textarea rows="2" cols="10" name="ClientMSG"></textarea> </td>
+        </tr>
+        <tr>
+          <td><input type="submit"></td>
+          <td><input type="reset"></td>
+        </tr>
+      </form>
+    </tbody>
+  </table>
+</body>
+
+</html>
